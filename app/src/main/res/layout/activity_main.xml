@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    tools:context="com.devpoll.demo.bestdeal.bestdealautorentals.MainActivity">
+
+    <ImageView
+        android:id="@+id/bestdeal"
+        android:src="@drawable/bestdeal"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:layout_weight="100"/>
+
+    <TextView
+        android:text="Best Deal Auto Rentals"
+        android:layout_width="wrap_content"
+        android:inputType="textMultiLine"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#455a64"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:text="http://www.bestdealautorentals.com\n660 Broadway Newburgh NY\n(845) 569-1000\nOpen Mon-Fri 10am-7pm, Sat-Sun 11am-3pm"
+        android:layout_width="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#455a64"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:text="Best Deal Auto provides discount car rental prices along with over 50 years of industry experience. At Best Deal we believe that inexpensive car rental can be achieved without the expense of excellent service. With close proximity to Stewart Airport Best Deal strives to meet all of your car, truck and U-Haul rental needs; whether you are looking for airport car rental, U-Haul moving truck, an insurance replacement vehicle or a van or minivan to take on vacation."
+        android:layout_width="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#455a64"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+
+
+
+
+</LinearLayout>
